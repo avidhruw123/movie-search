@@ -51,6 +51,7 @@ function displayMovieList(movies){
             <p>${movies[idx].Year}</p>
             </div>
             `;
+            
             searchList.appendChild(moviesListItem);
     }
     loadMovieDetails();
